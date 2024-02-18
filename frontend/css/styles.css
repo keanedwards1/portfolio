@@ -1,0 +1,47 @@
+a:link {
+    color: #2a2121;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2a2121;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 90px;
+    position: relative;
+    margin-top: 120px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    text-decoration: none !important;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+    font-size: 13px;
+  }
+  
+  
+  .grid-item:hover {
+    opacity: 70%;
+    color: #6381e5;
+    color: #1C274C;
+    transform: scale(1.017);
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  /*   cursor: pointer;
+   */  border-radius: 10px;
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  
+  }
+  
+  .grid-item .title {
+    margin-top: 5px;
+  }
