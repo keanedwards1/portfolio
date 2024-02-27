@@ -83,9 +83,11 @@ function setJournalImage(isDarkMode) {
 function setBottomBarColor(isDarkMode) {
   if (isDarkMode) {
     bottomBar.style.backgroundColor = '#1f2531';
+    bottomBar.style.color = 'white'; // Change the font color to white or any other desired color
 /*     bottomBar.style.backgroundImage = 'url(images/tangerine.jpeg)'; */
   } else {
     bottomBar.style.backgroundColor = '#d9edf9';
+    bottomBar.style.color = 'black'; // Change the font color to black or any other desired color
   }
 }
 

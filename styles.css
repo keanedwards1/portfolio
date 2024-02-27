@@ -122,6 +122,8 @@ this background as text colors */
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   flex-shrink: 1;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #logo {
@@ -429,7 +431,6 @@ body.dark-theme #poem-input:-ms-input-placeholder {
 
 #contact-info {
   font-size: 14px;
-  color: #333;
   text-align: center;
   margin-bottom: 40px;
   margin-top: -50px;
@@ -753,8 +754,8 @@ h2 {
   text-decoration: none;
   vertical-align: top;
   white-space: nowrap;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   margin-left: 428px;
 }
 
@@ -1149,6 +1150,8 @@ The higher the alpha value, the more opaque the shadow appears. */
   #logo {
     transform: scale(0.8);
     margin-left: 25px;
+    display: inline-block; 
+    vertical-align: middle;
   }
 
   #logo:hover {
