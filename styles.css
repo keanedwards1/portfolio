@@ -45,6 +45,7 @@ body {
 }
 
 
+
 /* body.light-theme #poem-prompt {
   color: #6c7a91;
 }
@@ -296,6 +297,17 @@ trying to query the divs to animate the tooltips */
 #theme-toggle-div {
   height: 50px;
   margin-top: 0px;
+}
+
+.top-header {
+  font-style: italic;
+  display:flex; 
+  margin-bottom: -80px; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 50px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: 30px;
 }
 
 #theme-image {
